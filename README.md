@@ -1,38 +1,18 @@
 ✈️ Unlocking Behavioral Intelligence in Airline Loyalty Programs
 An end-to-end data analytics and predictive modeling project designed to move beyond traditional points-based metrics. This project identifies behavioral disengagement, discovers genuinely valuable customer clusters, and delivers actionable retention blueprints—culminating in a dynamic, stakeholder-ready Excel dashboard.
 
-📑 Table of Contents
-Project Overview
-
-Business Objectives
-
-Data Overview
-
-Key Deliverables
-
-Repository Structure
-
-Getting Started
-
-Interactive Excel Dashboard
-
 📖 Project Overview
 Traditional loyalty metrics often fail to capture true customer engagement, relying too heavily on standard Customer Lifetime Value (CLV) and point balances. This project analyzes historical flight and loyalty data to predict churn based on behavioral disengagement before it happens, segment customers into actionable groups, and deploy targeted retention strategies via an accessible, interactive Excel dashboard.
 
 🎯 Business Objectives
 This repository addresses three core business challenges:
-
 Early Churn Prediction: Identifying behavioral disengagement markers without relying on future data or explicit cancellation events.
-
 Advanced Customer Segmentation: Moving beyond standard RFM (Recency, Frequency, Monetary) to uncover genuinely valuable clusters based on booking behaviors, redemption patterns, and engagement trends.
-
 Smart Retention Blueprints: Creating scalable, step-by-step intervention strategies tailored to specific at-risk segments to maximize ROI on marketing spend.
 
 📊 Data Overview
 Scope: 16,700 Canadian airline loyalty members.
-
 Timeframe: 2012 – 2018.
-
 Features: The dataset includes enrollment details, point accumulation/redemption histories, flight frequencies, demographic data, and seasonal engagement metrics.
 
 🚀 Key Deliverables
@@ -71,7 +51,6 @@ Plaintext
 💻 Getting Started
 Prerequisites
 Python 3.8+ for running the data processing and modeling scripts.
-
 Microsoft Excel (2016 or newer / Office 365) to view and interact with the dashboard.
 
 Installation
@@ -91,11 +70,7 @@ pip install -r requirements.txt
 The crown jewel of this project's presentation is the Airline_Loyalty_Dashboard.xlsx file located in the /dashboard folder.
 
 Dashboard Features:
-
 Dynamic Slicers: Filter the data by customer segment, year, and loyalty tier to instantly update KPIs.
-
 Risk Scoring Visuals: Pivot charts tracking the distribution of churn-risk across different customer demographics.
-
 Blueprint Triggers: A dedicated view mapping out the exact behavioral thresholds and recommended marketing interventions (e.g., status accelerators, partner offers) for at-risk users.
-
 To view the dashboard, simply download the .xlsx file and open it locally in Microsoft Excel. Ensure macros/content are enabled if prompted to allow pivot tables to refresh.
