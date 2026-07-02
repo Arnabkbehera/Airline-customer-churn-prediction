@@ -36,7 +36,6 @@ Rising Stars: Newer or previously low-tier members exhibiting rapid growth in or
 Translated complex machine learning outputs into a dynamic Excel dashboard designed for non-technical stakeholders (CMOs, CFOs). Features include real-time segment filtering via slicers, KPI tracking, and automated retention blueprint logic.
 
 📂 Repository Structure
-Plaintext
 ├── data/                   # Raw and processed datasets (Ignored in .gitignore)
 ├── notebooks/              # Jupyter notebooks for EDA, modeling, and segmentation
 │   ├── 01_data_cleaning.ipynb
@@ -48,6 +47,7 @@ Plaintext
 │   └── final_technical_report.pdf
 ├── requirements.txt        # Python package dependencies
 └── README.md               # Project documentation
+
 💻 Getting Started
 Prerequisites
 Python 3.8+ for running the data processing and modeling scripts.
